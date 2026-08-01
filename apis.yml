@@ -1,8 +1,26 @@
 aid: pano
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pano.png
 name: Pano
-description: Pano is a company surfaced as a portfolio company of dcvc, initialized-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Pano AI provides enterprise-grade, AI-powered wildfire and bushfire detection.
+  The platform combines ultra-high-definition 360-degree mountaintop cameras, satellite
+  feeds, field sensor data, and machine learning to detect ignitions early, confirm and
+  triangulate their location, and deliver real-time visual situational intelligence to
+  utilities, fire agencies, first responders, and landowners. Operators access the Pano
+  360 platform at 360.pano.ai to monitor camera networks, review AI detections, and
+  coordinate incident response. Backed by DCVC and Initialized Capital, Pano was added
+  to the API Evangelist network as a portfolio-lead company profile; as of this enrichment
+  pass the company publishes no public API, developer portal, or SDK surface.
 url: https://raw.githubusercontent.com/api-evangelist/pano/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Wildfire Detection
+- Fire Detection
+- Situational Awareness
+- Geospatial
+- Computer Vision
+- Artificial Intelligence
+- Emergency Management
+- Public Safety
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pano-domain-security.yml
 - type: Website
   url: https://pano.ai/
+- type: TermsOfService
+  url: https://pano.ai/terms-of-service/
+- type: PrivacyPolicy
+  url: https://pano.ai/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
