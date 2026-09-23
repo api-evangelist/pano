@@ -1,0 +1,26 @@
+# Front Door AI Index — pano — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: pano
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: pano.ai
+  final_host: www.pano.ai
+  ownership: own
+  owner: pano
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 3
+  host_score: 3
+  density: 7.19
+  words: 417
+  tiers:
+    agentic: 0
+    core: 3
+    model: 0
+  ambiguous: 7
+  top_terms:
+    intelligence: 7
+    AI: 3
